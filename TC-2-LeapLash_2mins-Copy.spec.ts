@@ -10,7 +10,10 @@ leapwork.variables.set("streetAddress", "test adderss1 ", leapwork.storage.LOCAL
 const lw__streetAddress = leapwork.variables.get("streetAddress", leapwork.storage.LOCAL) as string;
 
 leapwork.configuration({
-  timeoutMs: 50000,
+  timeoutMs: Number(
+    leapwork.team.settings.get("timeoutMs")
+    ?? leapwork.workspace.settings.get("timeoutMs")
+  ) || 200000,
   enableSelfHeal:
     (leapwork.team.settings.get("enableSelfHeal")
       ?? leapwork.workspace.settings.get("enableSelfHeal")) !== "false",
