@@ -1,72 +1,33 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-21T08:36:11.491Z",
+  "generatedAt": "2026-08-21T10:55:42.308Z",
   "repo": {
-    "connectorId": 57,
+    "connectorId": 65,
     "repoSlug": "gunjangulatiggu/leapwork-test-cases",
-    "baseBranch": "main"
+    "baseBranch": "Leapwork-LeapLash"
   },
   "team": {
-    "assetId": 7618,
+    "assetId": 8745,
     "displayId": "TM-1",
-    "name": "QA Play Team"
+    "name": "GGU"
   },
   "tree": [
     {
-      "assetId": 7776,
-      "displayId": "FD-19",
-      "name": "ServiceNow",
-      "kind": "folder",
-      "children": [
-        {
-          "assetId": 7902,
-          "displayId": "FD-39",
-          "name": "Commons",
-          "kind": "folder",
-          "children": [
-            {
-              "assetId": 7896,
-              "displayId": "TC-83",
-              "name": "AddRequestedItem",
-              "kind": "test-case",
-              "repoPath": "ServiceNow/Commons/TC-83-AddRequestedItem.spec.ts"
-            }
-          ]
-        },
-        {
-          "assetId": 7828,
-          "displayId": "FD-25",
-          "name": "Helpers",
-          "kind": "folder",
-          "children": [
-            {
-              "assetId": 7835,
-              "displayId": "TS-28",
-              "name": "AddProductToCart",
-              "kind": "typescript",
-              "repoPath": "ServiceNow/Helpers/TS-28-AddProductToCart.ts"
-            }
-          ]
-        }
-      ]
+      "assetId": 9089,
+      "displayId": "TC-2",
+      "name": "LeapLash_2mins - Copy",
+      "kind": "test-case",
+      "repoPath": "TC-2-LeapLash_2mins-Copy.spec.ts"
     }
   ],
   "files": [
     {
-      "assetId": 7896,
+      "assetId": 9089,
       "assetKind": "test-case",
-      "displayId": "TC-83",
-      "name": "AddRequestedItem",
-      "repoPath": "ServiceNow/Commons/TC-83-AddRequestedItem.spec.ts",
-      "parentAssetId": 7902
-    },
-    {
-      "assetId": 7835,
-      "assetKind": "typescript",
-      "displayId": "TS-28",
-      "name": "AddProductToCart",
-      "repoPath": "ServiceNow/Helpers/TS-28-AddProductToCart.ts",
-      "parentAssetId": 7828
+      "displayId": "TC-2",
+      "name": "LeapLash_2mins - Copy",
+      "repoPath": "TC-2-LeapLash_2mins-Copy.spec.ts",
+      "parentAssetId": 8745
     }
   ]
 }
