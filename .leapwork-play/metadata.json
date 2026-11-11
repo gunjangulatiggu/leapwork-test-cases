@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-11T09:35:11.274Z",
+  "generatedAt": "2026-11-11T09:38:17.044Z",
   "repo": {
     "connectorId": 135,
     "repoSlug": "gunjangulatiggu/leapwork-test-cases",
@@ -18,6 +18,13 @@
       "name": "New test case1",
       "kind": "test-case",
       "repoPath": "TC-1-New-test-case1.spec.ts"
+    },
+    {
+      "assetId": 14195,
+      "displayId": "TC-2",
+      "name": "TC1_RevokedTokenTeam",
+      "kind": "test-case",
+      "repoPath": "TC-2-TC1_RevokedTokenTeam.spec.ts"
     }
   ],
   "files": [
@@ -27,6 +34,14 @@
       "displayId": "TC-1",
       "name": "New test case1",
       "repoPath": "TC-1-New-test-case1.spec.ts",
+      "parentAssetId": 14115
+    },
+    {
+      "assetId": 14195,
+      "assetKind": "test-case",
+      "displayId": "TC-2",
+      "name": "TC1_RevokedTokenTeam",
+      "repoPath": "TC-2-TC1_RevokedTokenTeam.spec.ts",
       "parentAssetId": 14115
     }
   ]
