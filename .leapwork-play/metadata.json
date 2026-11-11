@@ -1,72 +1,33 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-21T08:36:11.491Z",
+  "generatedAt": "2026-11-11T09:35:11.274Z",
   "repo": {
-    "connectorId": 57,
+    "connectorId": 135,
     "repoSlug": "gunjangulatiggu/leapwork-test-cases",
     "baseBranch": "main"
   },
   "team": {
-    "assetId": 7618,
+    "assetId": 14115,
     "displayId": "TM-1",
-    "name": "QA Play Team"
+    "name": "RevokedToken"
   },
   "tree": [
     {
-      "assetId": 7776,
-      "displayId": "FD-19",
-      "name": "ServiceNow",
-      "kind": "folder",
-      "children": [
-        {
-          "assetId": 7902,
-          "displayId": "FD-39",
-          "name": "Commons",
-          "kind": "folder",
-          "children": [
-            {
-              "assetId": 7896,
-              "displayId": "TC-83",
-              "name": "AddRequestedItem",
-              "kind": "test-case",
-              "repoPath": "ServiceNow/Commons/TC-83-AddRequestedItem.spec.ts"
-            }
-          ]
-        },
-        {
-          "assetId": 7828,
-          "displayId": "FD-25",
-          "name": "Helpers",
-          "kind": "folder",
-          "children": [
-            {
-              "assetId": 7835,
-              "displayId": "TS-28",
-              "name": "AddProductToCart",
-              "kind": "typescript",
-              "repoPath": "ServiceNow/Helpers/TS-28-AddProductToCart.ts"
-            }
-          ]
-        }
-      ]
+      "assetId": 14172,
+      "displayId": "TC-1",
+      "name": "New test case1",
+      "kind": "test-case",
+      "repoPath": "TC-1-New-test-case1.spec.ts"
     }
   ],
   "files": [
     {
-      "assetId": 7896,
+      "assetId": 14172,
       "assetKind": "test-case",
-      "displayId": "TC-83",
-      "name": "AddRequestedItem",
-      "repoPath": "ServiceNow/Commons/TC-83-AddRequestedItem.spec.ts",
-      "parentAssetId": 7902
-    },
-    {
-      "assetId": 7835,
-      "assetKind": "typescript",
-      "displayId": "TS-28",
-      "name": "AddProductToCart",
-      "repoPath": "ServiceNow/Helpers/TS-28-AddProductToCart.ts",
-      "parentAssetId": 7828
+      "displayId": "TC-1",
+      "name": "New test case1",
+      "repoPath": "TC-1-New-test-case1.spec.ts",
+      "parentAssetId": 14115
     }
   ]
 }
